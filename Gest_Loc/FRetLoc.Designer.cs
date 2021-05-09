@@ -253,6 +253,7 @@ namespace Gest_Loc
             this.Controls.Add(this.metroLabel1);
             this.Name = "FRetLoc";
             this.Text = "Retour d\'une Voiture Louée";
+            this.Load += new System.EventHandler(this.FRetLoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Rech_Cl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Valider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dg_Loc)).EndInit();

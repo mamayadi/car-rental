@@ -63,5 +63,10 @@ namespace Gest_Loc
             Txt_Voit.Text = Dg_Loc[1, ind].Value.ToString();
             Txt_Cl.Text = Dg_Loc[2, ind].Value.ToString();
         }
+
+        private void FRetLoc_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

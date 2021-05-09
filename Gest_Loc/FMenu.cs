@@ -47,7 +47,9 @@ namespace Gest_Loc
 
         private void TS_Btn_Cl_Click(object sender, EventArgs e)
         {
-
+            FClient fcl = new FClient();
+            fcl.MdiParent = this;
+            fcl.Show();
         }
     }
 }
