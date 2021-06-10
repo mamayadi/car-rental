@@ -56,6 +56,19 @@ namespace Services
                 return L;
             }
         }
+
+        public static List<Location> List_Loc()
+        {
+            using (BDLocationEntities context = new BDLocationEntities())
+            {
+                List<Location> L = (from l in context.Location
+                                    where l.Kil_Ret == null 
+                                    orderby l.DDeb_Loc
+                                    select l).ToList();
+
+                return L;
+            }
+        }
         //Liste des locations en cours d'une voiture
         public static List<Location> List_Loc_Vt(string Immat)
         {

@@ -43,9 +43,9 @@ namespace Gest_Loc
             {
                 Id_Cl = int.Parse(Dg_Cl[0, ind].Value.ToString()),
                 Nom_Cl = Dg_Cl[1, ind].Value.ToString(),
-                Num_CIN = Dg_Cl[4, ind].Value.ToString(),
-                Adr_Cl = Dg_Cl[2, ind].Value.ToString(),
-                Tel_Cl = Dg_Cl[3, ind].Value.ToString()
+                Num_CIN = Dg_Cl[2, ind].Value.ToString(),
+                Adr_Cl = Dg_Cl[3, ind].Value.ToString(),
+                Tel_Cl = Dg_Cl[4, ind].Value.ToString()
             };
             setFields(Cl);
         }
